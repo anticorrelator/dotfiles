@@ -1,0 +1,3 @@
+bind 1:shift;ctrl;alt;cmd move screenOriginX,screenOriginY screenSizeX/2,screenSizeY
+bind 2:shift;ctrl;alt;cmd move screenOriginX+screenSizeX/2,screenOriginY screenSizeX/2,screenSizeY
+bind space:shift;ctrl;alt;cmd move screenOriginX,screenOriginY screenSizeX,screenSizeY
