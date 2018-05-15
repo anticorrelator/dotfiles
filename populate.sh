@@ -12,8 +12,7 @@ ln -sFi $DIR/config.fish $FISH_PATH/config.fish
 
 NVIM_PATH=~/.config/nvim
 mkdir -p $NVIM_PATH
-ln -sFi $DIR/vimrc $NVIM_PATH/init.vim
-ln -sFi $DIR/vimrc ~/.vimrc
+ln -sFi $DIR/nvimrc $NVIM_PATH/init.vim
 
 ln -sFi $DIR/slate ~/.slate
 
