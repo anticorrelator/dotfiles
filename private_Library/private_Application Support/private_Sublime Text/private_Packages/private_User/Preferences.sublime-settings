@@ -1,0 +1,35 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"drag_text": false,
+	"enable_tab_scrolling": false,
+	"enable_telemetry": "disable",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"font_face": "Operator Mono Book",
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets_content": true,
+	"overlay_scroll_bars": "enabled",
+	"preview_on_click": true,
+	"scroll_past_end": false,
+	"show_full_path": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": "all",
+	"theme": "Gruvbox Material Dark.sublime-theme",
+	"spacegray_tabs_font_large": true,
+	"color_scheme": "Gruvbox Material Dark.sublime-color-scheme",
+}

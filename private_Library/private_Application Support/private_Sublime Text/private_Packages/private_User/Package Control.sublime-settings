@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Desert Night Color Scheme",
+		"Earthbound Themes",
+		"GitGutter",
+		"Gruvbox Material Theme",
+		"HTML-CSS-JS Prettify",
+		"LSP",
+		"LSP-json",
+		"LSP-pylsp",
+		"LSP-pyright",
+		"Nostromo Color Scheme",
+		"Orbit Color Scheme",
+		"Package Control",
+		"Pastel Paws Color Scheme",
+		"Path Tools",
+		"Retro Computers Color Schemes",
+		"SublimeLinter",
+		"SynthWave 84 - Color Scheme",
+		"Teenage Color Scheme",
+		"Theme - Gravity",
+		"Theme - Spacegray",
+	],
+}
