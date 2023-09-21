@@ -41,6 +41,37 @@ return {
           },
           icons = {
             webdev_colors = true,
+            web_devicons = {
+              folder = { enable = false },
+              file = { enable = false },
+            },
+            glyphs = {
+              default = "",
+              symlink = "",
+              bookmark = "󰆤",
+              modified = "●",
+              folder = {
+                arrow_closed = "",
+                arrow_open = "",
+                default = "",
+                open = "",
+                empty = "",
+                empty_open = "",
+                symlink = "",
+                symlink_open = "",
+              },
+              git = {
+                unstaged = "✗",
+                staged = "✓",
+                unmerged = "",
+                renamed = "➜",
+                untracked = "★",
+                deleted = "",
+                ignored = "◌",
+              },
+            },
+            modified_placement = "after",
+            padding = "  ",
           },
         },
         hijack_directories = {

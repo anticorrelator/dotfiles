@@ -1,12 +1,10 @@
 vim.loader.enable()
 
 local core_conf_files = {
-    -- "globals.lua", -- some global settings
-    -- "options.vim", -- setting options in nvim
-    -- "autocommands.vim", -- various autocommands
-    -- "mappings.lua", -- all the user-defined mappings
-    "plugins.vim", -- all the plugins installed and their configurations
-    "colorschemes.vim", -- colorscheme settings
+  "globals.lua",
+  "plugins.vim", -- all the plugins installed and their configurations
+  "colorschemes.vim", -- colorscheme settings
+  "options.vim", -- setting options in nvim
   }
   
   -- source all the core config files
