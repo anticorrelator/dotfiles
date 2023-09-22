@@ -3,10 +3,6 @@ return {
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
       local nvim_tree = require("nvim-tree")
-  
-      -- disable netrw at the very start of your init.lua (strongly advised)
-      vim.g.loaded_netrw = 1
-      vim.g.loaded_netrwPlugin = 1
 
       -- set termguicolors to enable highlight groups
       vim.opt.termguicolors = true
@@ -16,7 +12,7 @@ return {
         auto_reload_on_write = true,
         disable_netrw = false,
         hijack_cursor = false,
-        hijack_netrw = true,
+        hijack_netrw = false,
         hijack_unnamed_buffer_when_opening = false,
         open_on_tab = false,
         sort_by = "name",

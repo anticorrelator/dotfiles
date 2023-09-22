@@ -8,7 +8,7 @@ return {
     -- configure lualine with modified theme
     lualine.setup({
       options = {
-        theme = "everforest",
+        theme = "gruvbox-material",
         icons_enabled = false,
         section_separators = {},
         component_separators = {},

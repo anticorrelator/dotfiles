@@ -38,7 +38,7 @@ set wrap linebreak nolist
 set showbreak=+++
 set textwidth=0
 set wrapmargin=0
-set colorcolumn=89
+set colorcolumn=120
 set display+=lastline " When 'wrap' is on, display last line even if it doesn't fit
 
 " indentation settings

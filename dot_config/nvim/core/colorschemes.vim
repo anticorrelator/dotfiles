@@ -9,4 +9,4 @@ let g:sonokai_style = 'shusia'
 let g:tokyonight_style = 'night'
 let g:neon_style = 'dark'
 
-colorscheme everforest
+colorscheme gruvbox-material
