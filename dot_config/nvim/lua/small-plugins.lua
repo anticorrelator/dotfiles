@@ -17,4 +17,5 @@ return {
   { "tpope/vim-repeat", event = "VeryLazy" },
   { "nmac427/guess-indent.nvim", event = "VeryLazy" },
   { "nvim-zh/better-escape.vim", event = { "InsertEnter" } },
+  { "github/copilot.vim", event = "VeryLazy" }
 }

@@ -28,27 +28,37 @@ return {
             vim.fn["UltiSnips#Anon"](args.body)
           end,
         },
+        -- tab-autocomplete mapping, <Esc> feels bad
+        -- mapping = cmp.mapping.preset.insert({
+        --   ["<Tab>"] = function(fallback)
+        --     if cmp.visible() then
+        --       cmp.select_next_item()
+        --     else
+        --       fallback()
+        --     end
+        --   end,
+        --   ["<S-Tab>"] = function(fallback)
+        --     if cmp.visible() then
+        --       cmp.select_prev_item()
+        --     else
+        --       fallback()
+        --     end
+        --   end,
+        --   ["<CR>"] = cmp.mapping.confirm { select = true },
+        --   ["<C-e>"] = cmp.mapping.abort(),
+        --   ["<Esc>"] = cmp.mapping.close(),
+        --   ["<C-d>"] = cmp.mapping.scroll_docs(-4),
+        --   ["<C-f>"] = cmp.mapping.scroll_docs(4),
+        --   ["<C-Space>"] = cmp.mapping.complete(), -- show completion suggestions
+        -- }),
         mapping = cmp.mapping.preset.insert({
-          ["<Tab>"] = function(fallback)
-            if cmp.visible() then
-              cmp.select_next_item()
-            else
-              fallback()
-            end
-          end,
-          ["<S-Tab>"] = function(fallback)
-            if cmp.visible() then
-              cmp.select_prev_item()
-            else
-              fallback()
-            end
-          end,
-          ["<CR>"] = cmp.mapping.confirm { select = true },
-          ["<C-e>"] = cmp.mapping.abort(),
-          ["<Esc>"] = cmp.mapping.close(),
-          ["<C-d>"] = cmp.mapping.scroll_docs(-4),
+          ["<C-k>"] = cmp.mapping.select_prev_item(), -- previous suggestion
+          ["<C-j>"] = cmp.mapping.select_next_item(), -- next suggestion
+          ["<C-b>"] = cmp.mapping.scroll_docs(-4),
           ["<C-f>"] = cmp.mapping.scroll_docs(4),
           ["<C-Space>"] = cmp.mapping.complete(), -- show completion suggestions
+          ["<C-e>"] = cmp.mapping.abort(), -- close completion window
+          ["<CR>"] = cmp.mapping.confirm({ select = false }),
         }),
         -- sources for autocompletion
         sources = cmp.config.sources({
